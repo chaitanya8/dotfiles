@@ -1,0 +1,1 @@
+/home/chaitanya/my_builds/rofi-wifi-menu/rofi-wifi-menu.sh

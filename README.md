@@ -22,3 +22,9 @@ Colors are heavily inspired from the Dracula theme. This setup has shades of suc
 Each directory covers configuring particular piece of the puzzle. Mix and match them to your liking. These configurations are specific to my setup so you will need to tweak them for your system. 
 
 Fork it, share it, improve it! :)
+
+
+## TODO
+- Add Makefile based installation support
+- Build a more `bash` friendly for deployment on server based setups
+- Capture all dependencies from MacPorts/APT for reproducible setups.

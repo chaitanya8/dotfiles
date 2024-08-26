@@ -1,0 +1,62 @@
+" General Config : Start
+set number
+set showmatch
+set hlsearch
+set ignorecase
+set backspace=eol,start,indent
+set ruler
+set autoread
+set incsearch
+set whichwrap+=<,>,h,l
+
+" Colors and Fonts
+syntax enable
+
+if $COLORTERM == 'gnome-terminal'
+    set t_Co=256
+endif
+
+" File Options
+" Set utf8 as standard encoding and en_US as the standard language
+set encoding=utf8
+" Use Unix as the standard file type
+set ffs=unix,dos,mac
+
+"""""""""""""""""""""""""""""""""""""""""""
+" Code Format Options
+" Use spaces instead of tabs
+set expandtab
+
+" Be smart when using tabs ;)
+set smarttab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+
+" Linebreak on 500 characters
+set lbr
+set tw=500
+
+"Auto indent
+set ai 
+"Smart indent
+set si 
+"Wrap lines
+set wrap 
+
+"""""" Spell Check
+"map <leader>ss :setlocal spell!<cr>
+
+""""""""" Key Bindings
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+
+nmap <M-j> mz:m+<cr>`z
+nmap <M-k> mz:m-2<cr>`z
+vmap <M-j> :m'>+<cr>`<my`>mzgv`yo`z
+vmap <M-k> :m'<-2<cr>`>my`<mzgv`yo`z

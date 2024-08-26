@@ -1,0 +1,53 @@
+import = [
+    "$HOME/.config/alacritty/themes/themes/dracula.toml",
+    "$HOME/.config/alacritty/keybindings.toml",
+]
+
+
+[window]
+decorations = "Full"                       # Full/None/Transparent/Buttonless
+opacity = 0.8
+blur = true
+dynamic_padding = false
+dynamic_title = true
+dimensions = { columns = 120, lines = 30 }
+decorations_theme_variant = "Light"
+# startup_mode = "Windowed"
+
+[scrolling]
+history = 10000
+multiplier = 10
+
+[selection]
+save_to_clipboard = true
+
+[font]
+size = 18
+normal = { family = "Noto Sans Mono", style = "ExtraLight" }
+italic = { family = "Noto Sans Mono", style = "ExtraLight Italic" }
+bold = { family = "Noto Sans Mono", style = "Medium" }
+bold_italic = { family = "Noto Sans Mono", style = "ExtraLight Italic" }
+
+##########
+# CURSOR #
+##########
+
+[cursor]
+
+# Cursor style
+style = { shape = "Block", blinking = "On" } # Default: shape = "Block", blinking = "Off"
+
+# Vi mode cursor style (falls back to the active value of the normal cursor if "None")
+vi_mode_style = "None" # Default: "None"
+
+# Cursor blinking interval in milliseconds
+blink_interval = 750 # Default: 750
+
+# Time after which cursor stops blinking, in seconds
+blink_timeout = 0 # Default: 5
+
+# When true, the cursor will be rendered as a hollow box when the window is not focused
+unfocused_hollow = true # Default: true
+
+# Thickness of the cursor relative to the cell width
+thickness = 0.15 # Default: 0.15

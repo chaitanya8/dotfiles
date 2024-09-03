@@ -9,7 +9,7 @@ ALACRITTY_CONF_FILE_PATH="${XDG_CONFIG_HOME}/alacritty/alacritty.toml"
 tmp=$(expr $(date +%H))
 hour=$(($tmp))
 
-if [ "$hour" -gt 18 ]; then 
+if [ "$hour" -gt 17 ]; then 
     theme="dark"
 elif [ $hour -lt 6 ]; then
     theme="dark"

@@ -5,5 +5,7 @@ bindings = [
     # { key = "Key", mods = "Modifiers", action = "Action" },
     # { key = "Key", mods = "Modifiers", chars = "Characters to send" },
     { key = "Right", mods = "Option", chars = "\u001BF" },
-    { key = "Left", mods = "Option", chars = "\u001BB" },
+    { key = "Left",  mods = "Option", chars = "\u001BB" },
+    { key = "PageUp",   action = "ScrollLineUp" },
+    { key = "PageDown", action = "ScrollLineDown" },
 ]

@@ -1,6 +1,6 @@
 import = [
-    "$HOME/.config/alacritty/themes/themes/dracula.toml",
-    "$HOME/.config/alacritty/keybindings.toml",
+    "/Users/chaitanya.rahangdale/.config/alacritty/themes/themes/alabaster.toml",
+    "/Users/chaitanya.rahangdale/.config/alacritty/keybindings.toml",
 ]
 
 
@@ -8,10 +8,12 @@ import = [
 decorations = "Full"                       # Full/None/Transparent/Buttonless
 opacity = 0.8
 blur = true
-dynamic_padding = false
+dynamic_padding = true
 dynamic_title = true
 dimensions = { columns = 120, lines = 30 }
+padding = { x = 5, y = 5 }
 decorations_theme_variant = "Light"
+position = { x = 1500, y = 1000 }
 # startup_mode = "Windowed"
 
 [scrolling]
